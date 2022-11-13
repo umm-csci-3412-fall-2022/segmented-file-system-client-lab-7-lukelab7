@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class DataPacket extends Packet{
 
 	public byte[] packetNum;
-	public int packeteNumber;
+	public int packetNumber;
 
 	public DataPacket(DatagramPacket packet){
 		super(packet);
