@@ -116,7 +116,7 @@ public class FileRetriever {
 				allPackets.add(newMap);
 				newMap.handledID = packetType.fileID;
 			}
-		} while(numOfFullMaps != allPacket.size());
+		} while(numOfFullMaps != allPackets.size());
 	}
 
 	public void writeToFiles() throws IOException, FileNotFoundException{
