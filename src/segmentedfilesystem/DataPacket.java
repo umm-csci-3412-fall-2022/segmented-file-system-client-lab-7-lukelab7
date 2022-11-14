@@ -12,7 +12,7 @@ public class DataPacket extends Packet{
 		super(packet);
 		int nameLength = packet.getLength();
 		packetNumber = getPacketNumber();
-		data = Arrays.copyOfRange(packet.getData(),4,nameLength);
+		data = Arrays.copyOfRange(packet.getData(), 4, nameLength);
 	}
 
 	public byte[] getData(){
